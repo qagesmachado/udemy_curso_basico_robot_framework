@@ -15,7 +15,7 @@ Teste conversao minusculo maisculo
 Teste Strip
     ${stripped}     Strip String    ${SPACE}Teste${SPACE}
 
-Replace Strin test    
+Replace String test    
 
     ${var}    Set Variable    Teste${\n}2 
     Log To Console    message=${var}
