@@ -15,6 +15,13 @@ Teste conversao minusculo maisculo
 Teste Strip
     ${stripped}     Strip String    ${SPACE}Teste${SPACE}
 
+Replace Strin test    
+
+    ${var}    Set Variable    Teste${\n}2 
+    Log To Console    message=${var}
+    ${var}     Replace String    ${var}    ${\n}    ${SPACE}
+    Log To Console    message=${var}
+
 Teste Random
     ${var}    Set Variable    ROBOT-
     ${random}    Generate Random String    length=8     chars=[NUMBERS]
