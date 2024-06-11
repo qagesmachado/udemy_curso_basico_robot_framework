@@ -9,7 +9,11 @@
 
 ## Instalação
 - Instalar o python conforme ensinado no curso
-- Instalar o arquivo rerequirements.txt
+- Instalar o vs code
+- Adicionar extensões e plugins conforme necessidade
+    - Material Icon Theme
+    - Robot Framework Language Server
+- Instalar o arquivo requirements.txt
     - pip install -r requirements.txt
     - Observe que as versões de cada biblioteca foram fixadas nesse arquivo, caso precise fique livre para mudar as versões.
 

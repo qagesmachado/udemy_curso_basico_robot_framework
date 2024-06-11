@@ -6,7 +6,7 @@ Test setup    Fazer login
 Test Teardown    Fazer Logout
 
 *** Variables ***
-# robot -i smoke_test .\1_introducao\first_test.robot
+# robot -d ./results src\1_basic\1_estruturas_basicas\10_setup_teardwon.robot
 
     
 *** Test Cases ***

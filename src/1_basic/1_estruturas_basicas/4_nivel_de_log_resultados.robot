@@ -1,17 +1,14 @@
-*** Settings ***
 
-Suite Setup    Abrir página
-Suite Teardown    Fechar página
-Test setup    Fazer login
-Test Teardown    Fazer Logout
+*** Comments ***
+## -L -> Nível de log (info, debug, trace)
+    # robot -d ./results -L info  .src\1_basic\1_estruturas_basicas\4_nivel_de_log_resultados.robot
+    # robot -d ./results -L debug  src\1_basic\1_estruturas_basicas\4_nivel_de_log_resultados.robot
+    # robot -d ./results -L trace  src\1_basic\1_estruturas_basicas\4_nivel_de_log_resultados.robot
 
-*** Variables ***
-# robot -L info .\1_introducao\log_reports.robot
-# robot -L debug .\1_introducao\log_reports.robot
-# robot -L trace .\1_introducao\log_reports.robot
-
-# info - debug - trace
+${X}  
+${Y}  
 *** Test Cases ***
+
 Teste 1
     Log To Console    Hello world
     ${X}  Set Variable     3
@@ -38,4 +35,3 @@ Fazer login
     Log To Console    Fazendo login
 Fazer Logout
     Log To Console    Fazendo logout
-
