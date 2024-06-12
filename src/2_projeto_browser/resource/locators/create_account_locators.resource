@@ -1,4 +1,3 @@
-
 *** Variables ***
 ${tf_name}                       css=input[name="usernameRegisterPage"]
 ${tf_email}                      css=input[name="emailRegisterPage"]

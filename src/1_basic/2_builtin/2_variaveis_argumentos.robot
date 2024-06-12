@@ -1,7 +1,7 @@
 *** Settings ***
 
 *** Variables ***
-# robot -d ./results -L trace  .\src\2_builtin\2_2_variaveis_argumentos.robot
+# robot -d ./results -L trace  src\1_basic\2_builtin\2_2_variaveis_argumentos.robot
 
 
 # Local -> Pode ser usada apenas dentro do contexto local que foi declarado
@@ -10,10 +10,17 @@
 
 *** Test Cases ***
 
-Teste 1
+Teste 1 - keyword que retorna variáveis
     ${x}    ${y}    ${z}  keyword-1
+    
+    Log To Console    ${x} - ${y} - ${z}
 
-    keyword-2    ${x}  ${y}  ${z}
+Teste 2 - Variáveis como argumentos
+    keyword-2    1  2  3
+    keyword-2    var_1    var_2    var_3
+
+Teste 3 - Variáveis dentro da keyword
+    Meu nome e Gustavo e tenho 30 anos
     
 *** Keywords ***
 keyword-1
@@ -21,10 +28,13 @@ keyword-1
     ${b}  Set Variable  2
     ${c}  Set Variable  3
 
-    [Return]    ${a}    ${b}    ${c}
+    RETURN    ${a}    ${b}    ${c}
 
 keyword-2
     [Arguments]    ${var_1}    ${var_2}    ${var_3}
     Log To Console    ${var_1}
     Log To Console    ${var_2}
     Log To Console    ${var_3}
+
+Meu nome e ${var_1} e tenho ${anos} anos
+    Log To Console    ${var_1}    ${anos}

@@ -8,4 +8,5 @@ Robot Documentantio: https://robotframework.org/
     - info -> nível base, padrão, menos informações
     - debug -> nível médio traz mais informações
     - trace -> nível máximo, muita informação
+    - warn
 - Utilizar o parâmetro -L

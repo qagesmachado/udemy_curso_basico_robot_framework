@@ -1,4 +1,3 @@
-
 *** Variables ***
 ${btn_user}                      id=menuUserLink
 ${btn_create_new_account}        text=CREATE NEW ACCOUNT

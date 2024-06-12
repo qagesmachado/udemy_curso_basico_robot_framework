@@ -18,8 +18,8 @@ CT 1 - Criar usuario com campos obrigatorios [Sucesso]
     Create user    user=usertestqa    email=euqa@euqa.com    password=Test123
 
     Access my account page
-    Delete my account    
-
+    Delete my account
+    
 # CT 2 - Criar usuario com todos os campos [Sucesso]   
 #     Pass Execution    message
 

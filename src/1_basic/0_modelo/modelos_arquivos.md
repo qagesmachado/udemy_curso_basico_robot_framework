@@ -3,7 +3,7 @@ Aula referente aos aquivos:
     - src\1_basic\0_modelo\test_file.robot
     - src\1_basic\0_modelo\resource_file.resource
 
-Robot Documentantio: https://robotframework.org/
+Robot Documentantion: https://robotframework.org/
 
 ## GUIA DA AULA
 

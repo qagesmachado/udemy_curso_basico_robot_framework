@@ -1,7 +1,7 @@
 *** Settings ***
 
 *** Variables ***
-# robot -d ./results -L trace  .\src\2_builtin\2_3_should.robot
+# robot -d ./results -L trace  src\1_basic\2_builtin\3_should.robot
 
 *** Test Cases ***
 
@@ -44,6 +44,11 @@ Teste 6 - Regex
     Should Contain   ${a}     a    t
     Should Start With     ${a}    Gust
     Should Match    ${a}     gustavo        ignore_case=True
+    Should Not Contain   ${a}     x
+
+Teste 7 - Contem x vezes
+    ${var}    Set Variable    hello hello
+    Should Contain X Times	container=${var}    item=hello    count=2
 
     
 

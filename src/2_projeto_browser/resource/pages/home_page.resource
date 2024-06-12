@@ -1,7 +1,5 @@
-
 *** Settings ***
 Resource    ../utils/base.resource
-
 
 *** Keywords ***
 Access create account page

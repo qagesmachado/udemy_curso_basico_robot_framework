@@ -21,6 +21,7 @@
 - Para os testes de UI envolvendo Selenium será necessário fazer o download do chromedriver com uma versão compatível a sua versão de navegador
 
 ## Bibliotecas importantes
-
+Builtin
+- https://robotframework.org/robotframework/latest/libraries/BuiltIn.html
 Browser
 - https://marketsquare.github.io/robotframework-browser/Browser.html#library-documentation-top

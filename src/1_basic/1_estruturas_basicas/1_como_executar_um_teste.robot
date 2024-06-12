@@ -6,6 +6,9 @@
 CT 1 - teste
     Log To Console    message=Passou
 
+CT 2 - teste
+    Log To Console    message=Passou 2
+
 *** Keywords ***
 
 

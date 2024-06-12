@@ -22,4 +22,3 @@
 # Garante reuso de código
 # Deixa o caso de teste mais limpo
 # Precisa ser importada pelo Caso de teste se não estiver no mesmo arquivo
-
