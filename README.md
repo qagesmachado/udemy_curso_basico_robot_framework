@@ -1,11 +1,6 @@
-# Curso Robot Framework Básico ao avançado para teste de UI e API - V2
+# Curso Robot Framework Básico Web e API
 
 [![Badge ServeRest](https://img.shields.io/badge/API-ServeRest-green)](https://github.com/ServeRest/ServeRest/)
-
-## Controle de versão
-- V2 - em desenvolvimento
-- V1 - Arquivado em versions/version_1_0
-    - Disponivel gratuitamente em: .......
 
 ## Instalação
 - Instalar o python conforme ensinado no curso
@@ -23,5 +18,9 @@
 ## Bibliotecas importantes
 Builtin
 - https://robotframework.org/robotframework/latest/libraries/BuiltIn.html
-Browser
-- https://marketsquare.github.io/robotframework-browser/Browser.html#library-documentation-top
+
+Selenium
+- https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
+
+Requests
+- https://marketsquare.github.io/robotframework-requests/doc/RequestsLibrary.html#

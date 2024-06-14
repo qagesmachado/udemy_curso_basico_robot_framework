@@ -1,7 +1,7 @@
 # GUIA PARAS AS AULAS
 
 ## Por onde começar?
-- O aluno deverá começar pela pasta "1_basico" e seguindo a partir daí.
+- O aluno deverá começar pela pasta numera pelo número 1 e seguindo a partir daí.
 - Existirá outras pastas numeradas
     - Sugere-se seguir de acordo com a numeração
     - No entanto, são módulos independentes sendo assim pode ser feito na ordem que desejar sem grande prejuízo
