@@ -26,4 +26,4 @@ Requests
 - https://marketsquare.github.io/robotframework-requests/doc/RequestsLibrary.html#
 
 ## Guia de aulas
-Guia de aulas se encontra  na pasta [0_guia_aulas](https://github.com/gesmachado/udemy_curso_basico_robot_framework/tree/master/src/0_guia_aulas)
+Guia de aulas se encontra  na pasta [0_guia_aulas](./src/0_guia_aulas)
