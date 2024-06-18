@@ -1,5 +1,5 @@
 # Aula 7 - Atribuindo valores de variável por linha de comando
-Aula referente ao aquivo: src\1_estruturas_basicas\6_atribuindo_variavies_por_linha_de_comando.robot
+Aula referente ao aquivo: src\1_estruturas_basicas\7_atribuindo_variavies_por_linha_de_comando.robot
 
 Robot Documentantio: https://robotframework.org/
 

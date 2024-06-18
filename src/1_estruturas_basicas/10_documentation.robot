@@ -5,10 +5,11 @@
 
 *** Test Cases ***
 Teste 1
-
     [Documentation]    Documentação do teste 1
+    ...                outra linha
     ...                Continuando a escrever
     Log To Console    Hello world
+
 
 
 

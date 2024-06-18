@@ -10,6 +10,7 @@ As principais keyword que serão utilizadas quando estivermos realizando testes 
 
 Enviar requisição
 - POST On Session
+- GET On Session
 - PUT On Session
 - PATCH On Session
 - DELETE On Session

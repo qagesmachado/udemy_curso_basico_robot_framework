@@ -1,9 +1,9 @@
 *** Settings ***
 
 *** Variables ***
-# robot -d ./results -L trace  .\src\2_builtin\2_4_if-else.robot
+# robot -d ./results -L trace  src\2_builtin\4_if-else.robot
 
-${A}     234354346
+${A}     4
 *** Test Cases ***
 
 

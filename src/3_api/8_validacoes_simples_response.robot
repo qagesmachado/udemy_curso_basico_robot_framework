@@ -38,7 +38,7 @@ CT 2 - Validação resultado no response
     Log To Console    ${total}
     
     # Exemplos de erro
-    # Should Be Equal        ${total}    "12"         
+    # Should Be Equal        "${total}"   "12"         
     # Should Be Equal        ${total}     12   
     
     # Solução

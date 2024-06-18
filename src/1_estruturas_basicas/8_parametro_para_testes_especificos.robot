@@ -5,6 +5,10 @@
 robot -d ./results -t "Teste 1" src\1_estruturas_basicas\8_parametro_para_testes_especificos.robot
 robot -d ./results -t "Teste 2" src\1_estruturas_basicas\8_parametro_para_testes_especificos.robot
 
+robot -d ./results src\1_estruturas_basicas\8_parametro_para_testes_especificos.robot
+
+robot -d ./results -L trace -t "Teste 2" src\1_estruturas_basicas\8_parametro_para_testes_especificos.robot
+
 *** Test Cases ***
 
 Teste 1

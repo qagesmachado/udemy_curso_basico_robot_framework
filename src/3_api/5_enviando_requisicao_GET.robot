@@ -14,14 +14,13 @@ ${url}          /api/users
 CT 1 - Estrutura básica de teste de API
     # Início
     ${header}    Create Dictionary    Content-Type=application/json
-    Create Session    alias=${alias}    url=${base_url}    headers=${header}    verify=true
+    Create Session    alias=${alias}    url=${base_url}    verify=true
     
     # Meio - Um desses comandos
-    ${RESPONSE}    GET On Session    url=${url}     alias=${alias}    headers=${header}
-
+    ${RESPONSE}    GET On Session    alias=${alias}    url=${url}
     Log To Console    ${RESPONSE.json()}
-    
+
     # Fim
-    Delete All Sessions 
+    Delete All Sessions
 
 *** Keywords ***

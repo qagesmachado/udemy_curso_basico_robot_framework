@@ -1,7 +1,7 @@
 *** Settings ***
 
 *** Variables ***
-# robot -d ./results -L trace  .\src\2_builtin\2_6_convertendo_variaveis.robot
+# 
 
 *** Test Cases ***
 
@@ -59,3 +59,6 @@ Teste 5 - Convert To String
 
     ${t}    Convert To String    ${T}
     ${typet}    Evaluate    type($t)
+
+*** Comments ***
+robot -d ./results -L trace  src\2_builtin\6_convertendo_variaveis.robot

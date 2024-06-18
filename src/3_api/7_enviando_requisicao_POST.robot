@@ -15,7 +15,7 @@ CT 1 - POST Request
 
     ${RESPONSE}    POST On Session    url=/api/register
     ...                alias=test
-    ...                data={"email": "eve.holt@reqres.in","password": "pistol"}
+    ...                data={"email": "eve.holt@reqres.in","password": "pistol"} 
     ...                headers=${header}
     
     Log To Console    ${RESPONSE.json()} 

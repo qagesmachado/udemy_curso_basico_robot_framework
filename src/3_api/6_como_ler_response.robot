@@ -26,7 +26,7 @@ CT 1 - Estrutura básica de teste de API
     Log To Console    ${RESPONSE.json()['total']}
     Log To Console    ${RESPONSE.json()['data']}
     Log To Console    ${RESPONSE.json()['data'][0]['email']}
-    
+
     # Fim
     Delete All Sessions 
 

@@ -20,9 +20,7 @@ Teste 1 - Variável Local
 Teste 2 - Variável não declarada
     Log To Console    ${X}
 
-
 Teste 3 - Variável de teste
-    
     Keyword 1
     Log To Console    ${W}
 

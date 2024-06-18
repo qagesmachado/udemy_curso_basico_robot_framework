@@ -8,7 +8,7 @@ robot -d ./results -i smoke -i regressao src\1_estruturas_basicas\6_utilizando_t
 robot -d ./results -i smokeANDregressao src\1_estruturas_basicas\6_utilizando_tags.robot
 robot -d ./results -i smokeORregressao src\1_estruturas_basicas\6_utilizando_tags.robot
 
-# -i <nome da tag>
+# -e <nome da tag>
 robot -d ./results -e smoke src\1_estruturas_basicas\6_utilizando_tags.robot
 robot -d ./results -e regressao src\1_estruturas_basicas\6_utilizando_tags.robot
 robot -d ./results -e smokeNOTregressao src\1_estruturas_basicas\6_utilizando_tags.robot
@@ -18,6 +18,11 @@ robot -d ./results -e regressaoORsmoke src\1_estruturas_basicas\6_utilizando_tag
 robot -d ./results -e smoke -i regressao src\1_estruturas_basicas\6_utilizando_tags.robot
 
 *** Test Cases ***
+Teste exemplo - 0
+    [Tags]    tag_1    tag_2
+    ...    tag_3
+    
+    Pass Execution    passou
 
 Teste 1
     [Tags]  smoke  
@@ -25,7 +30,7 @@ Teste 1
     Pass Execution    Pass
 
 Teste 2
-    [Tags]  regressao
+    [Tags]  regressao    usuario
 
     Pass Execution    Pass
 

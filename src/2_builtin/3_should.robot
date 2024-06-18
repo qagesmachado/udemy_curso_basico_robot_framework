@@ -9,8 +9,10 @@ Teste 1 Should Be Empty
 
     ${b}    Set Variable    ${Empty}
     ${c}    Set Variable    1
+
     Should Be Empty      ${b}
     Should Be Empty      ${Empty}
+
     Should Not Be Empty          ${c}
     Should Not Be Empty          ${SPACE}
 

@@ -32,7 +32,7 @@ CT 3 - Existir na página
     Close All Browsers
 
 *** Comments ***
-robot -d./results -L trace src\4_web_selenium\4_check_box.robot
+robot -d./results -L trace src\4_web_selenium\6_check_box.robot
 
 Select Checkbox      
 Checkbox Should Be Selected    

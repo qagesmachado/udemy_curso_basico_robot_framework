@@ -6,7 +6,7 @@ Test setup    Fazer login
 Test Teardown    Fazer Logout
 
 *** Variables ***
-# robot -d ./results src\1_estruturas_basicas\10_setup_teardwon.robot
+# robot -d ./results src\1_estruturas_basicas\11_setup_teardwon.robot
 
     
 *** Test Cases ***

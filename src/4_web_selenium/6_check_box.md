@@ -1,8 +1,11 @@
-# Aula 5 - Escrevendo em campos de texto
+# Aula 6 - Iteragindo com checkbox
+
+Keyword Documentantio: https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 
 ## GUIA DA AULA
 
-As seguinte
+As seguintes keywords serão utilizadas nessa aula para  fazermos alguma validações sobre interação com checbox, fique livre para ler a documentação antes da aula.
+
 - Select Checkbox      
 - Checkbox Should Be Selected    
 - Checkbox Should Not Be Selected     

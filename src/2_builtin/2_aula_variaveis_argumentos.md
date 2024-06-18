@@ -1,4 +1,4 @@
-# Aula 2 - Como argumentos dentro das varíaveis
+# Aula 2 - Como trabalhar com argumentos dentro das varíaveis
 Aula referente ao aquivo: src\2_builtin\2_variaveis_argumentos.robot
 
 Keyword Documentantio: https://robotframework.org/robotframework/latest/libraries/BuiltIn.html

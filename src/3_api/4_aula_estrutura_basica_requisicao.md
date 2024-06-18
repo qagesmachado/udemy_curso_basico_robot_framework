@@ -1,4 +1,4 @@
-# Aula 4 - Estrutura básica de reuisição
+# Aula 4 - Estrutura básica de requisição
 
 Keyword Documentantio: https://marketsquare.github.io/robotframework-requests/doc/RequestsLibrary.html#
 

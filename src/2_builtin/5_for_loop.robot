@@ -1,7 +1,7 @@
 *** Settings ***
 
 *** Variables ***
-# robot -d ./results -L trace  .\src\2_builtin\2_5_for_loop.robot
+
 
 *** Test Cases ***
 Teste 1 - For Loop
@@ -11,7 +11,7 @@ Teste 1 - For Loop
         Sleep    1        
     END
     
-Teste 2 - Exit For if
+Teste 2 - Exit For Loop If
 
     ${a}    Set Variable     1
 
@@ -34,3 +34,7 @@ Teste 3 - Exit for loop
 
         Sleep    1        
     END
+
+
+*** Comments ***
+robot -d ./results -L trace  src\2_builtin\5_for_loop.robot
