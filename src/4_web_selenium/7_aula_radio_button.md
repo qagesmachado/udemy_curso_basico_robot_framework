@@ -1,4 +1,4 @@
-# Aula 6 - Iteragindo com checkbox
+# Aula 7 - Iteragindo com checkbox
 
 Keyword Documentantio: https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 

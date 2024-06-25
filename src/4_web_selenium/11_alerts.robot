@@ -9,9 +9,9 @@ CT 1 - Obter text
     Click Element    id=submit-btn
 
     Alert Should Be Present     Message received!
-    Input Text    id=name    text=Gustavoaa
+    # Input Text    id=name    text=Gustavoaa
 
-    # Close All Browsers
+    Close All Browsers
 
 *** Comments ***
 robot -d./results -L trace src\4_web_selenium\7_radio_button.robot
