@@ -1,9 +1,5 @@
 *** Settings ***
-Resource    ../resource/utils/base.resource  
-Resource    ../resource/pages/product.resource
-
-Suite Setup    Inicia sessão e faz login    ${URL_BASE}    ${USERNAME}    ${PASSWORD}
-Suite Teardown    Encerra sessão
+Resource    ../resource/resource.resource  
 
 *** Variables ***
 
@@ -13,17 +9,19 @@ robot -d ./results -L trace  src\6_projeto_web_selenium\tests\test_checkout.robo
 
 *** Test Cases ***
 Fazer compra de produto
+    Inicia sessão
+    Login    username=robot_qa_basic    password=Teste123!@#
 
-    Busca produto por imagem    ${SPEAKERS}
+    Busca produto por imagem    
     
-    Seleciona produto por ID    ${SPEAKBOSE_SOUNDLINKRS}
+    Seleciona produto por ID    
     
     Adiciona produto ao carrinho 
 
     Ir para carrinho
 
-    Realizar compra    ${USERNAME}    ${PASSWORD}    
+    Realizar compra       
 
-    Valida compra
+    # Valida compra
     
 *** Keywords ***

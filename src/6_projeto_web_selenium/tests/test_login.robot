@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ../resource/utils/base.resource  
+Resource    ../resource/resource.resource  
 
 *** Variables ***
 
@@ -9,16 +9,13 @@ robot -d ./results -L trace  src\6_projeto_web_selenium\tests\test_login.robot
 
 *** Test Cases ***
 Teste de Login com sucesso
-    Inicia sessão    url=${URL_BASE}
-    Login    login_username=${USERNAME}    login_password=${PASSWORD}
-    Valida Login sucesso    ${USERNAME}
+    Inicia sessão
+    Login    username=robot_qa_basic    password=Teste123!@#
+    Valida Login sucesso
     Encerra sessão
 
-Teste de login sem sucesso
-
-    Inicia sessão    url=${URL_BASE}
-    Login    login_username=nao_existe    login_password=nao_existe
+Teste de Login sem sucesso
+    Inicia sessão
+    Login    username=non_exist    password=qualquer
     Valida Login incorreto
     Encerra sessão
-    
-*** Keywords ***

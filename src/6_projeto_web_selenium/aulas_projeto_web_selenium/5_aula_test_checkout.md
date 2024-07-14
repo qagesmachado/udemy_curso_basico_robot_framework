@@ -1,4 +1,4 @@
-# 6 - Criar teste de checkout
+# 5 - Criar teste de checkout
 
 Keyword Documentantio: https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 

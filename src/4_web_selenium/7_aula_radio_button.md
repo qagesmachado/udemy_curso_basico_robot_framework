@@ -1,4 +1,4 @@
-# Aula 7 - Iteragindo com checkbox
+# Aula 7 - Iteragindo com radio
 
 Keyword Documentantio: https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 

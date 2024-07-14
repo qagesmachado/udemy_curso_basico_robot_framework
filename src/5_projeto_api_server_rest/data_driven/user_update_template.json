@@ -1,6 +1,6 @@
 {
-  "nome": "EU QA Teste 2",
-  "email": "qa@qa.com.br",
-  "password": "teste",
-  "administrador": "true"
-}
+    "nome": "Gustavo update",
+    "email": "teste_gu@qa.com.br",
+    "password": "teste",
+    "administrador": "true"
+  }

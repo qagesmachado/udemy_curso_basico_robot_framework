@@ -7,27 +7,28 @@ CT 1 - Selecionar e validar
     
     Select Checkbox    id=drink1
     Click Element    locator=//label[contains(text(), 'Milk')]
-    Checkbox Should Be Selected  id=drink1  
+    Checkbox Should Be Selected    id=drink1
 
     Close All Browsers
 
 CT 2 - Remover seleção e validar
     Open Browser    url=https://practice-automation.com/form-fields/     browser=chrome    options=add_experimental_option("detach", True)
     
-    Select Checkbox    id=drink2  
-    Checkbox Should Be Selected  id=drink2
+    Select Checkbox    id=drink3
+    Checkbox Should Be Selected    id=drink3
 
-    Unselect Checkbox    id=drink2  
-      
-    Checkbox Should Not Be Selected    id=drink2  
+    Sleep    5s
+
+    Unselect Checkbox    id=drink3
+    Checkbox Should Not Be Selected    id=drink3
 
     Close All Browsers  
 
 CT 3 - Existir na página
     Open Browser    url=https://practice-automation.com/form-fields/     browser=chrome    options=add_experimental_option("detach", True)
      
-    Page Should Contain Checkbox    id=drink3    
-    Page Should Not Contain Checkbox    id=drink10
+    Page Should Contain Checkbox    id=drink3
+    Page Should Not Contain Checkbox    id=drink100  
 
     Close All Browsers
 

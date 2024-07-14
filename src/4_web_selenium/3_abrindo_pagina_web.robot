@@ -4,7 +4,7 @@ Library    SeleniumLibrary
 *** Test Cases ***
 
 CT 1 - Abrir página web
-    Open Browser    url=https://practice-automation.com/form-fields/   browser=chrome
+    Open Browser    url=https://practice-automation.com/form-fields/   browser=chrome   
 
 CT 2 - Abrir página web - Não fechar habilitado
     Open Browser    url=https://www.google.com.br    browser=chrome    options=add_experimental_option("detach", True)
@@ -28,7 +28,7 @@ CT 4 - Abrir página web e Maximizar
 
 CT 5 - Abrir página web - Headless
     Open Browser       url=https://practice-automation.com/form-fields/    
-    ...                browser=Headless Chrome    
+    ...                browser=headlesschrome    
     ...                options=add_experimental_option("detach", True)
     
     Maximize Browser Window
@@ -38,4 +38,4 @@ CT 5 - Abrir página web - Headless
     Close All Browsers
 
 *** Comments ***
-robot -d./results src\4_web_selenium\2_abrindo_pagina_web.robot
+robot -d./results src\4_web_selenium\3_abrindo_pagina_web.robot

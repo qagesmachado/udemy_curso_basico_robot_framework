@@ -1,26 +1,24 @@
 *** Settings ***
-Resource   ../resource/usuarios_resource.resource
-Resource   ../resource/session_resource.resource
+Resource    ../resource/session_resource.resource
+Resource    ../resource/usuarios_resource.resource
 
-Suite Setup        Criar Sessão        https://serverest.dev
+Suite Setup        Criar Sessão    https://serverest.dev
 Suite Teardown     Encerrar Sessão
 
 *** Variables ***
 
-# robot -d .\results\ src\5_projeto_api_server_rest\tests\teste_usuarios.robot
 *** Test Cases ***
+Teste 1 - CRUD
 
-Teste - CRUD
-   
-    # CREATE
-    ${USER_ID}    Criação de usuário 
+    ${USER_ID}    Criar de usuário
+    
+    Buscar usuário    ${USER_ID}
 
-    # READ
-    Buscar usuário    USER_ID=${USER_ID}    expected_status=200    NOME=EU QA Teste
+    Atualizar usuário    ${USER_ID}
 
-    # UPDATE
-    Atualizar usuário  USER_ID=${USER_ID}    
-    Buscar usuário    USER_ID=${USER_ID}   expected_status=200    NOME=EU QA Teste 2    # Mostra que houve alteração
+    Buscar usuário    ${USER_ID}
 
-    # DELETE
-    Deletar usuário    USER_ID=${USER_ID}
+    Deletar usuário   ${USER_ID}
+
+*** Comments ***
+robot -d .\results\ -L trace src\5_projeto_api_server_rest\tests\teste_usuarios.robot

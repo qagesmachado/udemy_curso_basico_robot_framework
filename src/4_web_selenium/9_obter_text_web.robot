@@ -5,20 +5,21 @@ Library    SeleniumLibrary
 CT 1 - Obter text
     Open Browser    url=https://practice-automation.com/form-fields/     browser=chrome    options=add_experimental_option("detach", True)
     
-    ${VAR}    Get WebElement    //*[@id="feedbackForm"]/ul/li[2]
+    ${VAR}    Get WebElement    //*[@id="feedbackForm"]/ul/li[1]
     Log To Console    ${VAR.text}
-
-    ${VAR}    Get Text    //*[@id="feedbackForm"]/ul/li[2]
-    Log To Console    ${VAR}
+    
+    ${VAR_1}     Get Text    //*[@id="feedbackForm"]/ul/li[1]
+    Log To Console    ${VAR_1}
 
     Close All Browsers
 
 CT 2 - Obter Title
     Open Browser    url=https://practice-automation.com/form-fields/     browser=chrome    options=add_experimental_option("detach", True)
     
-    ${VAR}    Get Title
+    ${VAR}  Get Title
     Log To Console    ${VAR}
+
     Close All Browsers
 
 *** Comments ***
-robot -d./results -L trace src\4_web_selenium\7_radio_button.robot
+robot -d./results -L trace src\4_web_selenium\9_obter_text_web.robot

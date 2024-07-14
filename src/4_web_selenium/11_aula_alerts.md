@@ -1,4 +1,4 @@
-# Aula 11 - Clicando em elementos
+# Aula 11 - Clicando em alerts
 
 Keyword Documentantio: https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 

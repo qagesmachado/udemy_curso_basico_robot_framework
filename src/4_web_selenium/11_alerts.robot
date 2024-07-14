@@ -8,10 +8,15 @@ CT 1 - Obter text
     Mouse Over    id=submit-btn
     Click Element    id=submit-btn
 
-    Alert Should Be Present     Message received!
-    # Input Text    id=name    text=Gustavoaa
+    Alert Should Be Present    Message received!    
+    
+    Input Text    id=name    text=Gustavo
+    Mouse Over    id=submit-btn
+    Click Element    id=submit-btn
+
+    Alert Should Be Present    Message received! 
 
     Close All Browsers
 
 *** Comments ***
-robot -d./results -L trace src\4_web_selenium\7_radio_button.robot
+robot -d./results -L trace src\4_web_selenium\11_alerts.robot

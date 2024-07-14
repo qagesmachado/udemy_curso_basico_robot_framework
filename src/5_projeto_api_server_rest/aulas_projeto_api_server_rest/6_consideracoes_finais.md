@@ -1,4 +1,4 @@
-# 5 - Atualizar usuário
+# 6 - Considerações finais
 
 ## Próximos passos
 - Projeto utilizou muitos dados estáticos

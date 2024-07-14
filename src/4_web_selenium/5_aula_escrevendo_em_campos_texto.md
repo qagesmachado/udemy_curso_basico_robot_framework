@@ -16,4 +16,4 @@ CT 1 - Escrever texto
 - Utilize Input Text para inserir um texto
 - Valide que foi inserido
 - Depois limpe o campo
-
+- Utilizar : https://practice-automation.com/form-fields/
